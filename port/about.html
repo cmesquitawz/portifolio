@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 10px 20px;
+            font-family: monospace;
+            background-image: url(img/background.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: right top;
+            box-sizing: border-box;
+        }
+        .div_index header{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .div_index img{
+            width: 200px;
+        }
+        .about-me{
+            color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            margin-top: 400px;
+            margin-right: 200px;
+            font-size: 1.5rem;
+        }
+        .about-me figure{
+            display: flex;
+            justify-content: center;
+        }
+        .about-me img{
+            position: relative;
+            bottom: 350px;
+        } 
+        footer{
+            color: whitesmoke;
+            font-size: 1rem;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div_index">
+    <header>
+        <img src="img/shirator_logo.png" alt="shirator logo site">
+    </header>
+    </div>
+
+    <div class="about-me">
+        
+        <figure>
+            <img src="img/shira.png" alt="foto do shira">
+            <figcaption>Carlos Mesquita, natural de santarém iniciou seus estudos na Universidade Federal do Amazonas em 2016<br>
+            Formou-se em engenharia da computação em 2021, e aprimorou habilidades de salesforce, front-end dev e banco de dados<br></figcaption>
+        </figure>
+        <!-- <img src="img/shira.png" alt"foto do shira">
+        <p>
+            Carlos Mesquita, natural de santarém iniciou seus estudos na Universidade Federal do Amazonas em 2016<br>
+            Formou-se em engenharia da computação em 2021, e aprimorou habilidades de salesforce, front-end dev e banco de dados<br>
+        </p> -->
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2022</p>
+    </footer>
+</body>
+</html>
